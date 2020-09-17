@@ -69,7 +69,7 @@ if(strlen($_SESSION['user']) > 0)
 		responseMode: 'form_post',
 		pkce: false
 	},
-	redirectUri: 'https://c1.adminpanel.biz/login.php'
+	redirectUri: 'https://web-1.rstcon.adminpanel.biz/login.php'
 	});
   signIn.renderEl({
     el: '#widget-container'
