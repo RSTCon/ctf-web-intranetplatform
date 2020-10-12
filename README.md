@@ -14,7 +14,7 @@ Awesome Company Inc has hired you to audit their new intranet platform which is 
 * server's hostname added as a Trusted Origin in the Okta tenant used for testing (ask Dragos)
 
 ## Installation
-The challenge does not have any specific
+The challenge does not have any specific requirements for installation. Simply upload the PHP files on the web server.
 
 ## Flag
 RST{4a60cf4654dc31c29ea551cf43ea68c556d6487b6a95d1dace6964d5cb28b4b5}
