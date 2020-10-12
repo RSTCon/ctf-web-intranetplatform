@@ -8,7 +8,6 @@
                                     <img src="images/photos/thumb2.png" alt="" class="pull-left" />
                                     <div class="comment-info">
                                         <h4>Happy new year from your awesome IT department!</h4>
-                                        <h5>Posted by it@awesomecompany.com on Jan-01-2020 at 00:00 UTC</h5>
                                         <p>						   - moved the MySQL production and QA databases from DC-1 domain controller to our AWS instance<br />
 						   - switched from using Active Directory login to our new identity provider, Okta<br />
 						   - changed authentication method from basic auth to using OpenID Connect implicit flow<br />
@@ -27,7 +26,6 @@
                                     <img src="images/photos/thumb2.png" alt="" class="pull-left" />
                                     <div class="comment-info">
                                         <h4>SQL injection vulnerability update</h4>
-                                        <h5>Posted by it@awesomecompany.com on Dec-13-2020 at 23:01 UTC</h5>
                                         <p>						   - following the disclosure on the SQL injection on our intranet platform, we are happy to say that the issue has been resolved and has not impacted our company's internal database<br />
 						   - the issue was related to the incorrect sanitization of "page" query parameter which offered the possibility to query the public database
 </p>
