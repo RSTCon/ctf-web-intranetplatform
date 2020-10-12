@@ -11,6 +11,7 @@ Awesome Company Inc has hired you to audit their new intranet platform which is 
 
 ## Requirements to run the challenge
 * web server with PHP 7.2 or later
+* openssl PHP module
 * server's hostname added as a Trusted Origin in the Okta tenant used for testing (ask Dragos)
 
 ## Installation
