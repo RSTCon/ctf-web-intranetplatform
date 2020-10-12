@@ -13,6 +13,7 @@ Awesome Company Inc has hired you to audit their new intranet platform which is 
 * web server with PHP 7.2 or later
 * openssl PHP module
 * server's hostname added as a Trusted Origin in the Okta tenant used for testing (ask Dragos)
+* callback URL updated in index.php and in Okta tenant (ask Dragos for Okta tenant update)
 
 ## Installation
 The challenge does not have any specific requirements for installation. Simply upload the PHP files on the web server.
