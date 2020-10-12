@@ -173,7 +173,7 @@ if(strlen($_SESSION['user']) == 0)
 
 <!-- 
 
-If you scrolled until here, just wanted to let you know that IT likes trains
+If you scrolled until here, just wanted to let you know that I likes trains
 
     _____
  ___ |[]|_n__n_I_c
