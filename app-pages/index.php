@@ -31,7 +31,7 @@
 </p>
                                     </div>
                                 </li>
-                                <li><a href="https://c1.adminpanel.biz/dashboard.php?page=dev">View More Updates</a></li>
+                                <li><a href="dashboard.php?page=dev">View More Updates</a></li>
                             </ul>
                         </div>
                         
