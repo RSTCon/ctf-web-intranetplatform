@@ -1,4 +1,4 @@
-# CTF Web Challege: Intranet platform
+# CTF Web Challenge: Intranet platform
 This is the repository for the intranet platform CTF challenge.
 
 ## Challenge description
