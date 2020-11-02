@@ -10,7 +10,7 @@ if($_SESSION['user'] == "it@awesomecompany.com")
 <?php
 }else{
 	?>
-	                     <h4 class="widgettitle">Access interzis</h4>
+	                     <h4 class="widgettitle">Acces interzis</h4>
                         <div class="widgetcontent">
                           Doar <em>it@awesomecompany.com</em> e autorizat sa acceseze aceasta pagina.
                         </div>
