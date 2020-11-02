@@ -1,7 +1,7 @@
                <div class="row">
                     <div id="dashboard-left" class="col-md-8">                        
                         
-                        <h4 class="widgettitle">Recent Updates</h4>
+                        <h4 class="widgettitle">Ultimele actualizari de la developer</h4>
                         <div class="widgetcontent nopadding">
                             <ul class="commentlist">
                                 <li>
@@ -31,7 +31,7 @@
 </p>
                                     </div>
                                 </li>
-                                <li><a href="dashboard.php?page=dev">View More Updates</a></li>
+                                <li><a href="dashboard.php?page=dev">Vezi Toate Actualizarile</a></li>
                             </ul>
                         </div>
                         
@@ -42,7 +42,7 @@
                     
                     <div id="dashboard-right" class="col-md-4">
                          
-                        <h4 class="widgettitle">Company Calendar</h4>
+                        <h4 class="widgettitle">Calendar Companie</h4>
                         <div class="widgetcontent nopadding">
                             <div id="datepicker"></div>
                         </div>
@@ -54,7 +54,7 @@
                                 <li><a href="#tabs-2"><span class="iconfa-star"></span></a></li>
                             </ul>
                             <div id="tabs-1" class="nopadding">
-                                <h5 class="tabtitle">Last Logged In Users</h5>
+                                <h5 class="tabtitle">Ultimii utilizatori conectati</h5>
                                 <ul class="userlist">
                                     <li>
                                         <div>
@@ -109,7 +109,7 @@
                                 </ul>
                             </div>
                             <div id="tabs-2" class="nopadding">
-                                <h5 class="tabtitle">Favorites</h5>
+                                <h5 class="tabtitle">Favoriti</h5>
                                 <ul class="userlist userlist-favorites">
                                                                         <li>
                                         <div>

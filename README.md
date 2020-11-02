@@ -1,9 +1,6 @@
 # CTF Web Challenge: Intranet platform
 This is the repository for the intranet platform CTF challenge.
 
-## Challenge description
-Awesome Company Inc has hired you to audit their new intranet platform which is claimed to be unbreakable as it uses Single Sign-On and OpenID Connect. The company has promised you *_400 points_* if you manage to break it and authenticate with their administrative account.
-
 ## Requirements to run the challenge
 * web server with PHP 7.2 or later
 * openssl PHP module

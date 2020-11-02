@@ -14,7 +14,7 @@ if(strlen($_SESSION['user']) > 0)
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <script src="https://global.oktacdn.com/okta-signin-widget/4.3.2/js/okta-sign-in.min.js" type="text/javascript"></script>
 <link href="https://global.oktacdn.com/okta-signin-widget/4.3.2/css/okta-sign-in.min.css" type="text/css" rel="stylesheet"/>
-<title>Intranet Platform</title>
+<title>Platforma Intranet</title>
 
 <link rel="stylesheet" href="css/style.default.css" type="text/css" />
 
@@ -35,18 +35,11 @@ if(strlen($_SESSION['user']) > 0)
 
 <script src="js/custom.js"></script>
 
-<script>
-    jQuery(document).ready(function(){
-        jQuery('#login').submit(function(){
-            var u = jQuery('#username').val();
-            var p = jQuery('#password').val();
-            if(u == '' && p == '') {
-                jQuery('.login-alert').fadeIn();
-                return false;
-            }
-        });
-    });
-</script>
+<style type="text/css">
+.okta-sign-in-header{
+	display:none;
+}
+</style>
 
 </head>
 
@@ -69,6 +62,11 @@ if(strlen($_SESSION['user']) > 0)
 		responseMode: 'form_post',
 		pkce: false
 	},
+	i18n:{
+		en: {
+			'signin': 'Conectare'
+		}
+	},
 	redirectUri: 'https://web-1.rstcon.adminpanel.biz/login.php'
 	});
   signIn.renderEl({
@@ -88,7 +86,7 @@ if(strlen($_SESSION['user']) > 0)
 	.js-help{display:none;}
 </style>
 <div class="loginfooter">
-    <p>Copyright &copy; 2020. Awesome Company. All Rights Reserved.<br />For guest login, please use guest:guest</p>
+    <p>Copyright &copy; 2020. Awesome Company. Toate drepturile rezervate.<br />Pentru a te conecta ca vizitator, foloseste guest:guest</p>
 </div>
 
 </body>

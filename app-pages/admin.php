@@ -2,17 +2,17 @@
 if($_SESSION['user'] == "it@awesomecompany.com")
 {
 	?>
-                        <h4 class="widgettitle">Welcome</h4>
+                        <h4 class="widgettitle">Bun venit!</h4>
                         <div class="widgetcontent">
-                          Welcome it@awesomecompany.com.
-						  <!-- Flag is RST{<?php echo hash("sha256", "1MPLIC1TFLOWISD34D"); ?>} -->
+                         Bun venit it@awesomecompany.com.
+						  <!-- Flag-ul este RST{<?php echo hash("sha256", "1MPLIC1TFLOWISD34D"); ?>} -->
                         </div>
 <?php
 }else{
 	?>
-	                     <h4 class="widgettitle">Access denied</h4>
+	                     <h4 class="widgettitle">Access interzis</h4>
                         <div class="widgetcontent">
-                          Only <em>it@awesomecompany.com</em> user is allowed to access this area.
+                          Doar <em>it@awesomecompany.com</em> e autorizat sa acceseze aceasta pagina.
                         </div>
 	<?php
 }

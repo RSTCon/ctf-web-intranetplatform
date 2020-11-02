@@ -12,7 +12,7 @@ if(strlen($_SESSION['user']) == 0)
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-<title>Intranet Platform</title>
+<title>Platforma Intranet</title>
 
 <link rel="stylesheet" href="css/style.default.css" />
 <link rel="stylesheet" href="css/responsive-tables.css">
@@ -53,11 +53,11 @@ if(strlen($_SESSION['user']) == 0)
         
         <div class="leftmenu">        
             <ul class="nav nav-tabs nav-stacked">
-            	<li class="nav-header">Navigation</li>
-                <li><a href="dashboard.php"><span class="iconfa-laptop"></span> Dashboard</a></li>
-				<li><a href="dashboard.php?page=admin"><span class="iconfa-cog"></span> Administrative area</a></li>
-				<li><a href="dashboard.php?page=dev"><span class="iconfa-pushpin"></span> Developer changelog</a></li>
-                <li><a href="logout.php"><span class="iconfa-off"></span> Logout</a></li>
+            	<li class="nav-header">Meniu</li>
+                <li><a href="dashboard.php"><span class="iconfa-laptop"></span> Acasa</a></li>
+				<li><a href="dashboard.php?page=admin"><span class="iconfa-cog"></span> Administrare</a></li>
+				<li><a href="dashboard.php?page=dev"><span class="iconfa-pushpin"></span> Actualizari</a></li>
+                <li><a href="logout.php"><span class="iconfa-off"></span> Deconectare</a></li>
             </ul>
         </div><!--leftmenu-->
         
@@ -79,10 +79,10 @@ if(strlen($_SESSION['user']) == 0)
                 
                 <div class="footer">
                     <div class="footer-left">
-                        <span>Copyright &copy; 2020. Awesome Company. All Rights Reserved.</span>
+                        <span>Copyright &copy; 2020. Awesome Company. Toate drepturile rezervate.</span>
                     </div>
                     <div class="footer-right">
-                        <span>Designed by: <a href="http://themepixels.com/">ThemePixels</a></span>
+                        <span>Design de: <a href="http://themepixels.com/">ThemePixels</a></span>
                     </div>
                 </div><!--footer-->
                 
